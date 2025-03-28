@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 const Content2 = () => {
   return (
     <div className="mt-30 flex flex-col md:flex-row items-center bg-[#f2f3f8] rounded-lg overflow-hidden max-w-6xl mx-auto">
-    {/* Image - made more compact */}
+   
     <div className="w-full md:w-2/5 p-4">
       <Image 
         src="/last.png" 
@@ -15,7 +15,7 @@ const Content2 = () => {
       />
     </div>
   
-    {/* Content - more compact layout */}
+    
     <div className="w-full md:w-3/5 p-6 space-y-4">
       <h1 className="text-2xl font-bold text-gray-900 leading-snug">
         Sell more, faster with help from a BigCommerce Coach.

@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div className="bg-gradient-to-b from-gray-50 to-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        {/* Breadcrumb */}
+     
         <div className="flex items-center text-sm mb-4">
           <span className="text-blue-700 font-bold">Home</span>
           <span className="mx-2 text-gray-400">›</span>
@@ -26,7 +26,6 @@ const HomePage = () => {
           </button>
         </div>
 
-        {/* Rating Section */}
         <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-6 py-8 mt-12">
           {["1.png", "2.png", "3.png"].map((src, index) => (
             <div key={index} className="flex flex-col items-center mx-4 text-center">
@@ -38,7 +37,6 @@ const HomePage = () => {
           ))}
         </div>
 
-        {/* Image Section */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 sm:gap-8 px-4 sm:px-8 py-12">
           {["4.png", "5.png", "6.png"].map((src, index) => (
             <div key={index} className="flex-shrink-0 w-full sm:w-auto">
@@ -54,7 +52,7 @@ const HomePage = () => {
         <div className="h-[40px]"></div>
         <hr className="border-t border-gray-300" />
 
-        {/* Features Section */}
+      
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 bg-white w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {["c1.png", "c2.png", "c3.png", "c4.png", "c5.png", "c6.png"].map((src, index) => (

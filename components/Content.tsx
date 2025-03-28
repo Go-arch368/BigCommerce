@@ -14,9 +14,9 @@ const Content = () => {
             scales with you.
           </h2>
           
-          {/* Card 1 - CREATE */}
+        
           <Card className="flex flex-col md:flex-row overflow-hidden rounded-xl mb-8 w-full max-w-6xl mx-auto">
-            {/* White Content Side */}
+            
             <div className="md:w-1/2 p-10 md:p-14 space-y-8 bg-white">
               <div className="space-y-8">
                 <div>
@@ -51,7 +51,7 @@ const Content = () => {
               </div>
             </div>
 
-            {/* Teal Image Side */}
+        
             <div className="md:w-1/2 relative min-h-[400px] bg-[#cce6e5]">
               <div className="absolute right-0 h-full w-[90%]">
                 <Image 
@@ -65,9 +65,8 @@ const Content = () => {
             </div>
           </Card>
 
-          {/* Card 2 - CONVERT */}
           <Card className="flex flex-col md:flex-row overflow-hidden rounded-xl mb-8 w-full max-w-6xl mx-auto">
-            {/* Image Side (Left) */}
+           
             <div className="md:w-1/2 relative min-h-[400px] bg-white">
               <Image 
                 src="/image2.png" 
@@ -78,7 +77,6 @@ const Content = () => {
               />
             </div>
 
-            {/* Content Side (Right) */}
             <div className="md:w-1/2 p-10 md:p-14 space-y-8 bg-white">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900">CONVERT</h2>
@@ -111,9 +109,9 @@ const Content = () => {
             </div>
           </Card>
 
-          {/* Card 3 - MARKET */}
+      
           <Card className="flex flex-col md:flex-row overflow-hidden rounded-xl mb-8 w-full max-w-6xl mx-auto">
-            {/* White Content Side */}
+        
             <div className="md:w-1/2 p-10 md:p-14 space-y-8 bg-white">
               <div className="space-y-8">
                 <div>
@@ -148,7 +146,7 @@ const Content = () => {
               </div>
             </div>
 
-            {/* Image Side */}
+           
             <div className="md:w-1/2 relative min-h-[400px] bg-white">
               <Image 
                 src="/image3.png" 
@@ -160,9 +158,9 @@ const Content = () => {
             </div>
           </Card>
 
-          {/* Card 4 - GROW */}
+         
           <Card className="flex flex-col md:flex-row overflow-hidden rounded-xl mb-8 w-full max-w-6xl mx-auto">
-            {/* Image Side (Left) */}
+            
             <div className="md:w-1/2 relative min-h-[400px] bg-white">
               <Image 
                 src="/image4.png" 
@@ -173,7 +171,7 @@ const Content = () => {
               />
             </div>
 
-            {/* Content Side (Right) */}
+         
             <div className="md:w-1/2 p-10 md:p-14 space-y-8 bg-white">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900">GROW</h2>
@@ -206,9 +204,9 @@ const Content = () => {
             </div>
           </Card>
 
-          {/* Card 5 - OPERATE */}
+    
           <Card className="flex flex-col md:flex-row overflow-hidden rounded-xl mb-8 w-full max-w-6xl mx-auto">
-            {/* White Content Side */}
+         
             <div className="md:w-1/2 p-10 md:p-14 space-y-8 bg-white">
               <div className="space-y-8">
                 <div>
@@ -259,7 +257,7 @@ const Content = () => {
           <h1 className='flex justify-center items-center text-2xl'>BigCommerce is rated the best ecommerce platform by the experts.</h1>
 
           <div className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-10 my-8">
-  {/* Card 1 */}
+ 
   <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full sm:w-auto min-w-[200px] max-w-[280px]">
     <div className="mb-4 p-3 bg-gray-50 rounded-full">
       <Image src="/g1.png" alt="Trust Radius logo" width={30} height={30} />
@@ -277,7 +275,7 @@ const Content = () => {
     <p className="text-gray-600 text-center">Top-rated for B2B SMBs</p>
   </div>
 
-  {/* Card 3 */}
+
   <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full sm:w-auto min-w-[200px] max-w-[280px]">
     <div className="mb-4 p-3 bg-gray-50 rounded-full">
       <Image src="/g3.png" alt="ecommerceCEO logo" width={30} height={30} />

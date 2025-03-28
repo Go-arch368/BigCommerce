@@ -10,9 +10,9 @@ import {
     return (
       <div className="w-full bg-[#021649] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Main Footer Grid */}
+      
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            {/* Features Column */}
+         
             <div className="md:col-span-1">
               <h2 className="text-xl font-bold mb-6">Features</h2>
               <ul className="space-y-4">
@@ -24,7 +24,7 @@ import {
               </ul>
             </div>
   
-            {/* Resources Column */}
+         
             <div className="md:col-span-2">
               <h2 className="text-xl font-bold mb-6">Resources</h2>
               <div className="grid grid-cols-2 gap-6">
@@ -46,7 +46,7 @@ import {
               </div>
             </div>
   
-            {/* Help Center Column */}
+           
             <div className="md:col-span-1">
               <h2 className="text-xl font-bold mb-6">Help Center</h2>
               <ul className="space-y-4">
@@ -61,7 +61,6 @@ import {
               </ul>
             </div>
   
-            {/* Company Column */}
             <div className="md:col-span-1">
               <h2 className="text-xl font-bold mb-6">Company</h2>
               <ul className="space-y-4">
@@ -76,14 +75,14 @@ import {
             </div>
           </div>
   
-          {/* Divider */}
+         
           <div className="border-t border-gray-700 my-10"></div>
   
-          {/* Bottom Footer */}
+        
           <div className="flex flex-col md:flex-row justify-between items-center">
          
             
-            {/* Social Icons */}
+          
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white transition">
                 <span className="sr-only">Twitter</span>

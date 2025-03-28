@@ -3,12 +3,11 @@ const Content3 = () => {
     return (
         <div className="flex justify-center items-center mt-[60px]">
         <div className='bg-black text-white rounded-3xl w-full max-w-[1200px] py-12 px-6 flex flex-col justify-center items-center'>
-          {/* Main Heading */}
+         
           <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">Make it Big.</h1>
       
-          {/* Content Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
-            {/* First Column - Image Left */}
+            
             <div className="flex flex-col items-center">
               <div className="mb-8 w-full max-w-[400px]">
                 <Image 
@@ -26,7 +25,7 @@ const Content3 = () => {
               </div>
             </div>
       
-            {/* Second Column - Image Right */}
+           
             <div className="flex flex-col items-center">
               <div className="mb-8 w-full max-w-[400px]">
                 <Image 

@@ -8,9 +8,9 @@ const Hero2 = () => {
 
   return (
     <div>
-      {/* Navbar */}
+     
       <div className="bg-white h-auto md:h-20 flex flex-col md:flex-row items-center justify-between px-4 md:px-12 py-4 md:py-0">
-        {/* Left Side - Logo & Navigation */}
+        
         <div className="w-full flex justify-between items-center md:w-auto">
           <Image src="/data.png" alt="logo" width={120} height={120} className="ml-2 md:ml-4" />
           <button
@@ -27,7 +27,7 @@ const Hero2 = () => {
           </button>
         </div>
 
-        {/* Navigation Links */}
+
         <div className={`w-full md:flex md:items-center md:space-x-12 ${mobileMenuOpen ? "block" : "hidden"} md:flex`}>
           <div className="flex flex-col md:flex-row text-center md:text-left">
             <h1 className="cursor-pointer hover:text-blue-600 font-semibold text-lg py-2 md:py-0">Features</h1>
@@ -35,7 +35,6 @@ const Hero2 = () => {
             <h1 className="cursor-pointer hover:text-blue-600 font-semibold text-lg py-2 md:py-0">Pricing</h1>
           </div>
 
-          {/* Button (Appears on larger screens only) */}
           <div className="hidden md:block">
             <Button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-bold text-md">
               GET STARTED
@@ -44,7 +43,7 @@ const Hero2 = () => {
         </div>
       </div>
 
-      {/* Full-width Blue Banner */}
+    
       <div className="w-full bg-[#003d9a] text-center py-4 px-6">
         <div className="max-w-6xl mx-auto">
           <p className="text-white text-sm md:text-lg">
