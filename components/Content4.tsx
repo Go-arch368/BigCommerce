@@ -25,8 +25,8 @@ const Content4 = () => {
         Request a quote from one of our agency partners.
       </h1>
       <p className="text-gray-600 mb-6 flex-grow">
-        They're the experts — so you don't have to be. Our partners have deep proficiency with BigCommerce, and many are certified in specialized topics for even greater ecommerce expertise.
-      </p>
+  They&apos;re the experts — so you don&apos;t have to be. Our partners have deep proficiency with BigCommerce, and many are certified in specialized topics for even greater ecommerce expertise.
+</p>
       <div className="mt-auto">
         <button className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors">
           LEARN MORE <ArrowRight className="ml-2 w-4 h-4" />
